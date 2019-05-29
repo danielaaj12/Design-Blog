@@ -1,0 +1,54 @@
+.profile_container {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 5%;
+  margin-top: 2%; }
+  .profile_container .user_info, .profile_container .user_h2 {
+    color: white;
+    margin-left: 16%; }
+
+.behance, .instagram {
+  width: 7%;
+  cursor: pointer; }
+
+.user_image {
+  width: 9%;
+  margin-bottom: -14%;
+  margin-left: 5%; }
+
+.instagram {
+  margin-left: 3%; }
+
+.behance {
+  margin-left: 15%; }
+
+.burbujas {
+  margin-left: 70%;
+  margin-bottom: -34%;
+  width: 22%; }
+
+h1 {
+  display: none; }
+
+.flyer1_image {
+  width: 90%;
+  margin-left: 4%;
+  margin-top: 12%; }
+
+.p_intro1, .p_intro2 {
+  text-align: center;
+  color: #767575; }
+
+.p_intro1 {
+  margin-top: 15%; }
+
+.domestika {
+  background-color: #DA0A4E; }
+
+.instagram_black, .facebook {
+  width: 9%; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
