@@ -1,0 +1,144 @@
+
+  .img3{
+    width: 100%;
+  }
+
+  h2{
+    margin-top: -46%;
+    margin-left: 37px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  h1{
+    transform: rotate(-90deg);
+    margin-left: 17%;
+    margin-top: 33%;
+    font-size: 46px;
+    font-family: 'Francois One', sans-serif; 
+  }
+
+  p{
+    margin-left: 15%;
+    font-size: 31px;
+    margin-top: -6px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+  }
+
+  .h4_1{
+    margin-left: 67%;
+    margin-top: -41%;
+    font-size: 20px;
+    font-family: 'B612 Mono', monospace;
+  }
+
+  .h4_2{
+    margin-left: 67%;
+    margin-top: 7%;
+    font-size: 20px;
+    font-family: 'B612 Mono', monospace;
+  }
+
+  .h4_3{
+   
+    margin-left: 68%;
+    margin-top: 9%;
+    font-size: 20px;
+    font-family: 'B612 Mono', monospace;
+  }
+
+  .middle{
+   
+    position: absolute;
+    top: 71%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 10px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #ff7675;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s all ease;
+  }
+
+  .btn::before{
+    background: #ff7675;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+
+  .btn3::before{
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .btn3:hover::before{
+    height: 380%;
+  }
+
+  .slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+  }
+  
+  .slider li{
+    width: 100%;
+    list-style: none;
+  }
+
+  .slider img{
+    width: 100%;
+  }
+
+  @keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  .footer_text{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif; 
+    margin-left: 29%;
+  }
+
+  footer{
+    margin-top: 39%;
+    background: #ff7675;
+    padding: 27px;
+  }
+
+
+
+
